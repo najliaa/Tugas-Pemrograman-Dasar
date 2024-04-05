@@ -10,14 +10,14 @@ int main() {
     int score = 0;
     
     cout << "Najlia Intani 2C2230010 Menampilkan Perubahan Score\n\n";
-    cout << "score sebelum diubah: " << score <<endl;
+    cout << "Score Sebelum Diubah: " << score <<endl;
     add_score(&score);
     add_score(&score);
     add_score(&score);
     add_score(&score);
     add_score(&score);
     add_score(&score);
-    cout << "score setelah diubah: " << score <<endl;
+    cout << "Hasil Akhir Score Setelah Diubah: " << score <<endl;
 
     return 0;
 }
